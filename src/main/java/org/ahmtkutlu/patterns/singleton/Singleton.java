@@ -1,4 +1,4 @@
-package org.ahmtkutlu.patterns;
+package org.ahmtkutlu.patterns.singleton;
 
 public class Singleton {
 

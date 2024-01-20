@@ -1,6 +1,6 @@
-package org.ahmtkutlu;
+package org.ahmtkutlu.patterns.singleton;
 
-import org.ahmtkutlu.patterns.Singleton;
+import org.ahmtkutlu.patterns.singleton.Singleton;
 
 public class Main {
     public static void main(String[] args) {
