@@ -9,8 +9,8 @@ public class Connector {
         PostgresFactory postgresFactory = new PostgresFactory();
         Connection postgresConnection = postgresFactory.connect("localhost","1521", "root", "********");
 
-        System.out.println(oracleConnection);
-        System.out.println(postgresConnection);
+        oracleConnection.connect();
+        postgresConnection.connect();
 
     }
 
